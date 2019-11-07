@@ -1,13 +1,22 @@
+* {
+    outline: 1px solid red;
+   }
+
 nav{
     transition: 0.4s;
     overflow: hidden;
     z-index: 100;
-    top: 0;
 }
 
 html,body{
     height:100%;
+    margin:0;
+    padding:0;
 }
+body{
+    padding-top:108px;
+}
+
 
 .full-height{
     height:100%;
@@ -16,15 +25,15 @@ html,body{
 }
 
 .jumbotron{
-    display: flex;
-    flex-direction: column;
+    display:flex;
     flex-grow: 1;
+    box-sizing: border-box;
 }
 
 .container-image {
     height: 100%;
     width:auto;
-    position: absolute;
+    position: fixed;
     padding: 0;
     right: 0;
     top: 0;
@@ -33,4 +42,5 @@ html,body{
 .p-content{
     text-align: justify;
     font-weight: lighter;
+    margin:0;
 }
