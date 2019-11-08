@@ -7,14 +7,10 @@ nav{
 
 html,body{
     height:100%;
+    display: flex;
+    flex-direction: column;
     margin:0;
     padding:0;
-}
-
-.full-height{
-    height:100%;
-    display:flex;
-    flex-direction: column;
 }
 
 .jumbotron{
@@ -25,6 +21,10 @@ html,body{
 
 .navbar-adjustment{
     padding-top:108px;
+}
+
+.homepage-image{
+    height:100%;
 }
 
 .container-image {
@@ -40,4 +40,5 @@ html,body{
     text-align: justify;
     font-weight: lighter;
     margin:0;
+    font-size: 1.2vw;
 }
