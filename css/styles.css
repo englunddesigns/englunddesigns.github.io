@@ -5,6 +5,11 @@ nav{
     z-index: 100;
 }
 
+.navbar-collapse{
+    width:100%;
+    text-align: center;
+}
+
 html,body{
     height:100%;
     display: flex;
@@ -23,9 +28,6 @@ html,body{
     padding-top:108px;
 }
 
-.homepage-image{
-    height:100%;
-}
 
 .container-image {
     height: 100%;
@@ -42,3 +44,26 @@ html,body{
     margin:0;
     font-size: 18px;
 }
+
+@media(min-width:576px){
+    .navbar-nav{
+        margin:0;
+    }
+    .homepage-image{
+        height:50%;
+    }
+}
+@media(min-width:768px){
+    
+    .navbar-nav{
+        margin-left: auto;
+        margin-right: 3rem; 
+    }
+
+    .homepage-image{
+        height:70%;
+    }
+}
+@media(min-width:992px){
+}
+@media(min-width:1200px){}
