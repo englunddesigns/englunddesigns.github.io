@@ -66,6 +66,10 @@ html,body{
     font-size: 18px;
 }
 
+.company-num{
+    font-size: x-small;
+}
+
 @media(max-width:767.98px){
     .navbar-nav{
         margin:0;
