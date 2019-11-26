@@ -75,7 +75,7 @@ html,body{
         margin:0;
     }
     .homepage-image{
-        height:50%;
+        height:40%;
     }
 }
 @media(min-width:768px){
@@ -86,9 +86,18 @@ html,body{
     }
 
     .homepage-image{
-        height:70%;
+        height:50%;
     }
 }
 @media(min-width:992px){
+
+    .homepage-image{
+        height:50%;
+    }
 }
-@media(min-width:1200px){}
+@media(min-width:1200px){
+
+    .homepage-image{
+        height:70%;
+    }
+}
