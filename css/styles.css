@@ -26,7 +26,8 @@ html,body{
     color: black;
     font-size: 8px;
     position: absolute;
-    top:98%;
+    padding-left:15px;
+    top:100%;
     left:0;
 }
 
@@ -40,7 +41,7 @@ html,body{
 }
 
 .homepage-image{
-    position: relative;
+    position: relative !important;
 }
 
 .jumbotron{
@@ -68,6 +69,10 @@ html,body{
     font-weight: lighter;
     margin:0;
     font-size: 18px;
+}
+
+.relative{
+    position:relative !important;
 }
 
 .company-num{
@@ -112,9 +117,3 @@ html,body{
     }
 }
 
-@media(min-width:1500px){
-
-    .homepage-image{
-        height:60%;
-    }
-}
