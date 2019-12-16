@@ -94,12 +94,17 @@ html,body{
     font-size: 10px;
 }
 
+.homepage-image{
+    height:105px;
+    width:auto;
+}
+
 @media(max-width:767.98px){
-    /*
+    
     .navbar-nav{
         margin:0;
     }
-    */
+    
     .homepage-image{
         height:30vh !important;
         width:auto;
