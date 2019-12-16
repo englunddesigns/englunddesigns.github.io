@@ -94,7 +94,8 @@ html,body{
 @media(max-width:350px){
 
     .navbar{
-        padding:0 !important;
+        padding-left:0 !important;
+        padding-right:0 !important;
     }
 
 }
