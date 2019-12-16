@@ -102,8 +102,7 @@ html,body{
     }
     
     .homepage-image{
-        min-height:200px !important;
-        width:auto;
+        min-height:30vh !important;
     }
 }
 @media(min-width:768px){
@@ -114,30 +113,26 @@ html,body{
     }
 
     .homepage-image{
-        height:250px !important;
-        width:auto;
+        min-height: 30vh !important;
     }
 }
 @media(min-width:992px){
 
     .homepage-image{
-        height:40vh !important;
-        width:auto;
+        min-height:40vh !important;
     }
 }
 @media(min-width:1200px){
 
     .homepage-image{
-        height:50vh !important;
-        width:auto;
+        min-height:50vh !important;
     }
 }
 
 @media(min-width:1500px){
 
     .homepage-image{
-        height:60vh !important;
-        width:auto;
+        min-height:60vh !important;
     }
 }
 
