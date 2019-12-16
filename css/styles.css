@@ -94,11 +94,6 @@ html,body{
     font-size: 10px;
 }
 
-.homepage-image{
-    height:105px;
-    width:auto;
-}
-
 @media(max-width:767.98px){
     
     .navbar-nav{
@@ -106,7 +101,7 @@ html,body{
     }
     
     .homepage-image{
-        height:30vh !important;
+        height:200px;
         width:auto;
     }
 }
@@ -118,7 +113,7 @@ html,body{
     }
 
     .homepage-image{
-        height:30vh !important;
+        height:250px;
         width:auto;
     }
 }
