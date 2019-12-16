@@ -110,10 +110,6 @@ html,body{
         padding-top:105px;
     }
     
-    .navbar{
-        margin:0;
-    }
-    
     .homepage-image{
         min-height:40vh !important;
     }
@@ -122,11 +118,6 @@ html,body{
 
     .navbar-adjustment{
         padding-top:95px;
-    }
-    
-    .navbar{
-        margin-left: auto;
-        margin-right: 3rem; 
     }
 
     .homepage-image{
