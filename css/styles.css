@@ -106,7 +106,7 @@ html,body{
     }
 }
 @media(min-width:768px){
-    
+
     .navbar-adjustment{
         padding-top:95px;
     }
@@ -123,14 +123,9 @@ html,body{
 @media(min-width:992px){
 
     .homepage-image{
-        min-height:50vh !important;
-    }
-}
-@media(min-width:1200px){
-
-    .homepage-image{
         min-height:60vh !important;
     }
 }
+
 
 
