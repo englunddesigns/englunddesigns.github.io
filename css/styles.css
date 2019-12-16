@@ -25,6 +25,7 @@ img {
 .img-attribute{
     color: black;
     font-size: 8px;
+    font-weight: lighter;
     position: absolute;
     padding-left:15px;
     top:100%;
