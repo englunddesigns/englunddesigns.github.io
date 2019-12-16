@@ -102,7 +102,7 @@ html,body{
     }
     
     .homepage-image{
-        height:200px !important;
+        min-height:200px !important;
         width:auto;
     }
 }
