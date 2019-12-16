@@ -101,7 +101,7 @@ html,body{
     }
     
     .homepage-image{
-        height:200px;
+        height:200px !important;
         width:auto;
     }
 }
@@ -113,7 +113,7 @@ html,body{
     }
 
     .homepage-image{
-        height:250px;
+        height:250px !important;
         width:auto;
     }
 }
