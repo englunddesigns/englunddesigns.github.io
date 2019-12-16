@@ -100,6 +100,7 @@ html,body{
     }
     .homepage-image{
         height:30vh !important;
+        width:auto;
     }
 }
 @media(min-width:768px){
@@ -111,18 +112,21 @@ html,body{
 
     .homepage-image{
         height:30vh !important;
+        width:auto;
     }
 }
 @media(min-width:992px){
 
     .homepage-image{
         height:40vh !important;
+        width:auto;
     }
 }
 @media(min-width:1200px){
 
     .homepage-image{
         height:50vh !important;
+        width:auto;
     }
 }
 
@@ -130,6 +134,7 @@ html,body{
 
     .homepage-image{
         height:60vh !important;
+        width:auto;
     }
 }
 
