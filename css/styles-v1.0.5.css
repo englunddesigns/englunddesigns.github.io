@@ -88,7 +88,7 @@ html,body{
     text-align: justify;
     font-weight: lighter;
     margin:0;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
@@ -115,6 +115,12 @@ html,body{
         margin: 0;
     }
 
+    .p-content{
+        text-align: justify;
+        font-weight: lighter;
+        margin:0;
+        font-size: 16px;
+    }
     
     .homepage-image{
         height:200px;
@@ -147,18 +153,10 @@ html,body{
     
     .homepage-image{
         height:200px;
-        min-height: 40vh !important;
+        min-height: 50vh !important;
     }
 }
 @media(min-width:992px){
-
-    .homepage-image{
-        height:200px;
-        min-height:50vh !important;
-    }
-}
-
-@media (min-width: 1200px) {
 
     .homepage-image{
         height:200px;
