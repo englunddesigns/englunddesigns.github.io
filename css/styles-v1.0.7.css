@@ -55,6 +55,13 @@ html,body{
     box-sizing: border-box;
 }
 
+.p-header{
+    text-align: left;
+    font-weight: normal;
+    margin:0;
+    font-size: 18px;
+}
+
 .p-content{
     text-align: justify;
     font-weight: lighter;
@@ -113,6 +120,13 @@ html,body{
 
     .navbar-nav{
         margin: 0;
+    }
+
+    .p-header{
+        text-align: left;
+        font-weight: normal;
+        margin:0;
+        font-size: 16px;
     }
 
     .p-content{
