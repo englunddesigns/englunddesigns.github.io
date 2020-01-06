@@ -6,24 +6,21 @@ nav{
 }
 
 html,body{
-    display:flex;
-    flex-direction: column;
     height:100%;
+    width:100%;
     margin:0;
     padding:0;
 }
 
 .ie-fixMinHeight {
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .content {
-    min-height: 100vh;
-    height:200px;
-    width:100%;
-    display:flex;
-    flex-direction:column;
+    height:100vh;
+    display:flex; 
+    flex-direction: column;
 }
 
 
@@ -72,6 +69,7 @@ html,body{
 .list-content{
     font-weight: lighter;
     font-size:18px;
+    margin:0;
     list-style: none;
 }
   
@@ -135,6 +133,13 @@ html,body{
         margin:0;
         font-size: 16px;
     }
+
+    .list-content{
+        text-align: justify;
+        font-weight: lighter;
+        margin:0;
+        font-size: 16px;
+    }
     
     .homepage-image{
         height:200px;
@@ -177,4 +182,13 @@ html,body{
         min-height:60vh !important;
     }
 }
+
+@media(min-width:1200px){
+
+    .homepage-image{
+        height:200px;
+        min-height:70vh !important;
+    }
+}
+
 
